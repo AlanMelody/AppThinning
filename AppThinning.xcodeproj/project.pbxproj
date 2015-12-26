@@ -192,6 +192,7 @@
 				TargetAttributes = {
 					574DD19E1BB9D16300C4B028 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = V5FE42WTHG;
 					};
 					574DD1B21BB9D16300C4B028 = {
 						CreatedOnToolsVersion = 7.0;
@@ -396,9 +397,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = AppThinning/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.AppCoda.AppThinning;
+				PRODUCT_BUNDLE_IDENTIFIER = com.infinityapps.AppThinning;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -407,9 +409,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = AppThinning/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.AppCoda.AppThinning;
+				PRODUCT_BUNDLE_IDENTIFIER = com.infinityapps.AppThinning;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -481,6 +484,7 @@
 				574DD1C91BB9D16300C4B028 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		574DD1CA1BB9D16300C4B028 /* Build configuration list for PBXNativeTarget "AppThinningTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +493,7 @@
 				574DD1CC1BB9D16300C4B028 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		574DD1CD1BB9D16300C4B028 /* Build configuration list for PBXNativeTarget "AppThinningUITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +502,7 @@
 				574DD1CF1BB9D16300C4B028 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
